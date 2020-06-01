@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lalecon.iwashlaundry.SignUp"
+    android:background="@drawable/cute"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect"
+        android:padding="10dp"
+        >
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="3.22"
+        android:src="@drawable/mylogo"
+        android:layout_alignTop="@+id/textInputLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/textInputLayout">
+
+    </android.support.design.widget.TextInputLayout>
+
+    <EditText
+        android:drawableLeft="@drawable/ic_account"
+        android:drawableStart="@drawable/ic_account"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:id="@+id/input_name"
+        android:hint="Name"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:inputType="textAutoComplete"
+        android:background="@drawable/newwhitee"
+        android:layout_marginBottom="28dp"
+        android:layout_above="@+id/input_password"
+        android:layout_alignLeft="@+id/input_phone"
+        android:layout_alignStart="@+id/input_phone" />
+
+
+
+    <EditText
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawableStart="@drawable/ic_lock"
+        android:id="@+id/input_password"
+        android:layout_height="35dp"
+        android:background="@drawable/newwhitee"
+        android:layout_width="250dp"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:inputType="textPassword"
+        android:layout_marginBottom="67dp"
+        android:layout_above="@+id/btn_login"
+        android:layout_alignLeft="@+id/input_name"
+        android:layout_alignStart="@+id/input_name" />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_phone"
+        android:drawableStart="@drawable/ic_phone"
+        android:id="@+id/input_phone"
+        android:layout_height="35dp"
+        android:background="@drawable/newwhitee"
+        android:layout_width="250dp"
+        android:textColor="@color/white"
+        android:hint="Phone"
+        android:textColorHint="@color/white"
+        android:inputType="phone"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/input_name"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+
+        android:id="@+id/btn_login"
+        android:padding="12dp"
+        android:textColor="#18879f"
+        android:background="@drawable/white_rounded_button"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_arrow"
+        android:id="@+id/back"
+        />
+
+</RelativeLayout>
+    </RelativeLayout>

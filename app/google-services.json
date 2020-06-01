@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "124764698307",
+    "firebase_url": "https://iwashlaundry-69d88.firebaseio.com",
+    "project_id": "iwashlaundry-69d88",
+    "storage_bucket": "iwashlaundry-69d88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124764698307:android:2f9712a222d57582",
+        "android_client_info": {
+          "package_name": "com.example.lalecon.iwashlaundry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124764698307-n8dulhgdosjuoea87c41bbddk0befko7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lalecon.iwashlaundry",
+            "certificate_hash": "c8533d80bdcf6f987408de1187f24f8e22539ac7"
+          }
+        },
+        {
+          "client_id": "124764698307-ek4amkfl7pethdk0dac3oo2co9mtpmgb.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "124764698307-ek4amkfl7pethdk0dac3oo2co9mtpmgb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD2a9jB5YxP8jr-bQ2-hqi-_LeUYAQo1E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124764698307-ek4amkfl7pethdk0dac3oo2co9mtpmgb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
